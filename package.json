@@ -8,7 +8,7 @@
     "lint": "next lint",
     "test": "jest --watch",
     "test:ci": "jest --ci --passWithNoTests",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged --no-stash"
   },
   "dependencies": {
     "@types/node": "18.15.10",
